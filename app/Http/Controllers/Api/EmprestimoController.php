@@ -12,7 +12,7 @@ class EmprestimoController extends Controller
 
     /**
      * @OA\Post(
-     *     path="/credito/simular",
+     *     path="/emprestimo/simular",
      *     description="Simulação de crédito para o cliente.",
      *     @OA\Response(
      *         response=200,

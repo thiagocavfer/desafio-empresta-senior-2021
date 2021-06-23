@@ -27,10 +27,10 @@
                 }
             }
         },
-        "/credito/simular": {
+        "/emprestimo/simular": {
             "post": {
                 "description": "Simulação de crédito para o cliente.",
-                "operationId": "App\\Http\\Controllers\\Api\\CreditoController::simular",
+                "operationId": "App\\Http\\Controllers\\Api\\EmprestimoController::simular",
                 "requestBody": {
                     "description": "Pass user credentials",
                     "required": true,
